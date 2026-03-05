@@ -1,0 +1,37 @@
+public class StudentRecordUpgrade {
+    public static void main(String[] args) {
+        Student[] students = new Student[3];
+
+        students[0] = new Student("Raj", 25, 85);
+        students[1] = new Student("Priya", 22, 90);
+        students[2] = new Student("Arun", 23, 80);
+
+        double total = 0;
+
+        for(Student s : students){
+            s.display();
+            total += s.getMarks();
+        }
+
+        System.out.println("Average Marks: " + (total / students.length));
+    }
+}
+ class Student {
+    private String name;
+    private int age;
+    private double marks;
+
+    public Student(String name, int age, double marks){
+        this.name = name;
+        this.age = age;
+        this.marks = marks;
+    }
+
+    public double getMarks(){
+        return marks;
+    }
+
+    public void display(){
+        System.out.println(name + " " + age + " " + marks);
+    }
+}
