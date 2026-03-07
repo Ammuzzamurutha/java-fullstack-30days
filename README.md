@@ -47,8 +47,8 @@ The goal is to strengthen my fundamentals in Java, improve problem-solving skill
 Java-Full-Stack-30-Days/
 │
 ├── Day-01-HelloWorld/
-├── Day-02-PracticePrograms/
-├── Day-03-StudentConsoleApp/
+├── Day-02-BasicPrograms/
+├── Day-03-Opps+Encapsulation+StudentConsoleAppUpgarde/
 ├── Day-04-...
 
 Each folder represents daily progress and contains:
